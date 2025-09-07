@@ -21,7 +21,7 @@
 
 ## 1 Установка
 
-![Меню](https://github.com/daretodream666/SoftwareEngineering/Tema_1/pics/GitVersion.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/GitVersion.png)
 
 ### Выводы
 
@@ -29,7 +29,7 @@ Git уже установлен
 
 ## 2 Настройка
 
-![Меню](https://github.com/daretodream666/SoftwareEngineering/Tema_1/pics/GitList.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/GitList.png)
 
 ### Выводы
 
@@ -37,7 +37,7 @@ Git уже настроен
 
 ## 3 Создание нового репозитория
 
-![Меню](https://github.com/daretodream666/SoftwareEngineering/Tema_1/pics/GitInit.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/GitInit.png)
 
 ### Выводы
 
@@ -45,8 +45,8 @@ Git уже настроен
 
 ## 4 Подготовка файлов
 
-![Меню](https://github.com/daretodream666/SoftwareEngineering/Tema_1/pics/GitAdd.png)
-![Меню](https://github.com/daretodream666/SoftwareEngineering/Tema_1/pics/GitCommit.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/GitAdd.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/GitCommit.png)
 
 ### Выводы
 
@@ -54,7 +54,7 @@ Git уже настроен
 
 ## 5 Фиксация изменений
 
-![Меню](https://github.com/daretodream666/SoftwareEngineering/Tema_1/pics/GitPush.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/GitPush.png)
 
 ### Выводы
 
@@ -62,7 +62,7 @@ Git уже настроен
 
 ## 6 Подключение к удаленному репозиторию
 
-![Меню](https://github.com/daretodream666/SoftwareEngineering/Tema_1/pics/GitRemote.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/GitRemote.png)
 
 ### Выводы
 
@@ -70,7 +70,7 @@ Git уже настроен
 
 ## 7 Ветвление
 
-![Меню](https://github.com/daretodream666/SoftwareEngineering/Tema_1/pics/GitSwitch.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/GitSwitch.png)
 
 ### Выводы
 
@@ -78,7 +78,7 @@ Git уже настроен
 
 ## 8 Особенности применения "Фетч"
 
-![Меню](https://github.com/daretodream666/SoftwareEngineering/Tema_1/pics/GitFetch.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/GitFetch.png)
 
 ### Выводы
 
@@ -86,8 +86,8 @@ Git уже настроен
 
 ## 9 Удаление файлов, веток, локальных и удалённых репозиториев
 
-![Меню](https://github.com/daretodream666/SoftwareEngineering/Tema_1/pics/GitRm.png)
-![Меню](https://github.com/daretodream666/SoftwareEngineering/Tema_1/pics/GitPushOriginDelete.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/GitRm.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/GitPushOriginDelete.png)
 
 ### Выводы
 
@@ -95,7 +95,7 @@ Git уже настроен
 
 ## 10 Отслеживание изменений в коммитах
 
-![Меню](https://github.com/daretodream666/SoftwareEngineering/Tema_1/pics/GitLogN.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/GitLogN.png)
 
 ### Выводы
 
@@ -103,7 +103,7 @@ Git уже настроен
 
 ## 11 Возвращение файла к предыдущему (определённому) состоянию
 
-![Меню](https://github.com/daretodream666/SoftwareEngineering/Tema_1/pics/GitReset.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/GitReset.png)
 
 ### Выводы
 
@@ -111,7 +111,7 @@ Git уже настроен
 
 ## 12 Возвращение к предыдущему коммиту
 
-![Меню](https://github.com/daretodream666/SoftwareEngineering/Tema_1/pics/GitDiff.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/GitDiff.png)
 
 ### Выводы
 
@@ -119,7 +119,7 @@ Git уже настроен
 
 ## 13 Исправление коммита
 
-![Меню](https://github.com/daretodream666/SoftwareEngineering/Tema_1/pics/GitAmend.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/GitAmend.png)
 
 ### Выводы
 
@@ -127,7 +127,7 @@ Git уже настроен
 
 ## 14 Разрешение конфликтов при слиянии
 
-![Меню](https://github.com/daretodream666/SoftwareEngineering/Tema_1/pics/GitMerge.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/GitMerge.png)
 
 ### Выводы
 
@@ -135,7 +135,7 @@ Git уже настроен
 
 ## 15 Настройка gitignore
 
-![Меню](https://github.com/daretodream666/SoftwareEngineering/Tema_1/pics/GitIgnore.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/GitIgnore.png)
 
 ### Выводы
 
