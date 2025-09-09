@@ -109,7 +109,7 @@ Python поддерживает возведение в степень, цело
 
 ## 2 Присвоить значения трем переменным и вывести их в консоль, используя только две строки редактора кода
 
-![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/sam2.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_2/pics/sam2.png)
 
 ### Выводы
 
@@ -117,7 +117,7 @@ Python поддерживает возведение в степень, цело
 
 ## 3 Реализуйте ввод данных в программу, через консоль, в виде только целых чисел (тип данных int). То есть при вводе буквенных символов в консоль, программа не должна работать. Программа должна занимать не более двух строк редактора кода.
 
-![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/sam3.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_2/pics/sam3.png)
 
 ### Выводы
 
@@ -125,7 +125,7 @@ Python поддерживает возведение в степень, цело
 
 ## 4 Создайте только одну строковую переменную. Длина строки должна не превышать 5 символов. На выходе мы должны получить строку длиной не менее 16 символов. Программа должна занимать не более двух строк редактора кода
 
-![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/sam4.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_2/pics/sam4.png)
 
 ### Выводы
 
@@ -133,7 +133,7 @@ Python поддерживает возведение в степень, цело
 
 ## 5 Создайте три переменные: день (тип данных - числовой), месяц (тип данных - строка), год (тип данных - числовой) и выведите в консоль текущую дату в формате: “Сегодня день месяц год. Всего хорошего!” используя F строку и оператор end внутри print(), в котором вы должны написать фразу “Всего хорошего!”. Программа должна занимать не более двух строк редактора кода.
 
-![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/sam5.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_2/pics/sam5.png)
 
 ### Выводы
 
@@ -141,7 +141,7 @@ Python поддерживает возведение в степень, цело
 
 ## 6 В предложении ‘Hello World’ вставьте ‘my’ между двумя словами. Выведите полученное предложение в консоль в одну строку. Программа должна занимать не более двух строк редактора кода.
 
-![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/sam6.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_2/pics/sam6.png)
 
 ### Выводы
 
@@ -149,7 +149,7 @@ Python поддерживает возведение в степень, цело
 
 ## 7 Узнайте длину предложения ‘Hello World’, результат выведите в консоль. Программа должна занимать не более двух строк редактора кода.
 
-![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/sam7.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_2/pics/sam7.png)
 
 ### Выводы
 
@@ -157,7 +157,7 @@ Python поддерживает возведение в степень, цело
 
 ## 8 Переведите предложение ‘HELLO WORLD’ в нижний регистр. Программа должна занимать не более двух строк редактора кода.
 
-![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/sam8.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_2/pics/sam8.png)
 
 ### Выводы
 
@@ -165,7 +165,7 @@ Python поддерживает возведение в степень, цело
 
 ## 9 Самостоятельно придумайте задачу по проходимой теме и решите ее. Задача должна быть связанна со взаимодействием с числовыми значениями.
 
-![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/sam9.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_2/pics/sam9.png)
 
 ### Выводы
 
@@ -173,7 +173,7 @@ Python поддерживает возведение в степень, цело
 
 ## 10 Самостоятельно придумайте задачу по проходимой теме и решите ее. Задача должна быть связанна со взаимодействием со строковыми значениями.
 
-![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_1/pics/sam10.png)
+![Меню](https://github.com/daretodream666/Software_Engineering/blob/Tema_2/pics/sam10.png)
 
 ### Выводы
 
