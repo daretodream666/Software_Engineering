@@ -1,11 +1,7 @@
-even_array = [2, 4, 6, 8, 9]
-flag = False
+from hello import formula
 
-for value in even_array:
-    if value % 2 == 1:
-        flag = True
-
-if flag:
-    print("есть нечётное")
-else:
-    print("все числа чётные")
+if __name__ == "__main__":
+    a = int(input("Enter a: "))
+    b = int(input("Enter b: "))
+    c = int(input("Enter c: "))
+    print(formula(a, b, c))
