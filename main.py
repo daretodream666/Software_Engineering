@@ -1,28 +1,37 @@
-# Напиши программу, которая принимает список оценок студентов по предмету (целые числа от 2 до 5). Нужно определить:
-# Средний балл группы.
-# Количество отличников (оценка 5).
-# Есть ли в списке хотя бы одна двойка.
+class Device:
+    def __init__(self, display, battery, brand, model_name):
+        self._display = display  # display size(in inches)
+        self.battery = battery  # battery capacity(mAh)
+        self.brand = brand  # brand of device
+        self.model_name = model_name  # modelname of device
 
-string = input("enter grades one by one and divide by spacebar: ")
-string = string.split()
-string = list(map(int, string))
-
-
-def average(lst: list):
-    return sum(lst) / len(lst)
+    def is_portable(self):
+        pass
 
 
-def aces(lst: list):
-    return lst.count(5)
+class Laptop(Device):
+    def __init__(self, display, battery, brand, model_name, cpu_power):
+        super().__init__(display, battery, brand, model_name)
+        self.cpu_power = cpu_power
+
+    def is_portable(self):
+        print("Laptops are pretty portable, but something feels off")
 
 
-def anyFs(lst: list):
-    if lst.count(2) == 0:
-        return "No Fs"
-    else:
-        return "There is an F"
+class Phone(Device):
+    def __init__(self, display, battery, brand, model_name, antutu_score):
+        super().__init__(display, battery, brand, model_name)
+        self.antutu_score = antutu_score
+
+    def is_portable(self):
+        print(
+            "Oh yeah, phones are REALLY portable compared to a laptop. Imagine u had 15 inch lol"
+        )
 
 
-print(average(string))
-print(aces(string))
-print(anyFs(string))
+my_laptop = Laptop(
+    13, 19000, "Apple", "MacBook", 3
+)  # i wish i ACTUALLY had macbook. even m1
+my_laptop.is_portable()
+my_phone = Phone(6.1, 4000, "Apple", "16e", 1450000)
+my_phone.is_portable()
