@@ -1,37 +1,74 @@
-class Device:
-    def __init__(self, display, battery, brand, model_name):
-        self._display = display  # display size(in inches)
-        self.battery = battery  # battery capacity(mAh)
-        self.brand = brand  # brand of device
-        self.model_name = model_name  # modelname of device
+class Tomato:
+    global states
+    states = [0, 1, 2, 3]
 
-    def is_portable(self):
-        pass
+    def __init__(self, index):
+
+        self._index = index  # dynamic
+        self._state = states[self._index]  # dynamic
+
+    def grow(self):  # grow tomato
+        self._index += 1
+        self._state = states[self._index]
+
+    def is_ripe(self):  # check if Tomato is ripe
+        if self._state == 3:
+            return True
+        else:
+            return False
 
 
-class Laptop(Device):
-    def __init__(self, display, battery, brand, model_name, cpu_power):
-        super().__init__(display, battery, brand, model_name)
-        self.cpu_power = cpu_power
+class TomatoBush:
+    def __init__(self, count):
+        self.tomatoes = []
+        for i in range(count):  # make tomato list
+            self.tomatoes.append(Tomato(0))
 
-    def is_portable(self):
-        print("Laptops are pretty portable, but something feels off")
+    def grow_all(self):  # grow all tomatoes
+        for tomato in self.tomatoes:
+            tomato.grow()
+
+    def all_are_ripe(self):  # check are tomatoes ripe
+        for tomato in self.tomatoes:
+            if not tomato.is_ripe():
+                return False
+        return True
+
+    def give_away_all(self):  # clear tomatoes list
+        self.tomatoes = []
 
 
-class Phone(Device):
-    def __init__(self, display, battery, brand, model_name, antutu_score):
-        super().__init__(display, battery, brand, model_name)
-        self.antutu_score = antutu_score
+class Gardener:
+    def __init__(self, name, bush):
+        self.name = name  # gardener's name / public
+        self._plant = bush  # accepts TomatoBush / non-public
 
-    def is_portable(self):
+    def work(self):  # makes gardener work, grows all tomatoes
+        self._plant.grow_all()
+
+    def harvest(self):  # checks can u ripe tomatoes if yes ripe them
+        if self._plant.all_are_ripe():
+            print("yay we got tomatoes")
+            self._plant.give_away_all()
+        else:
+            print("we cant ripe rn, tomatoes arent rdy")
+
+    @staticmethod
+    def knowledge_base():  # give knowledge base like some info
         print(
-            "Oh yeah, phones are REALLY portable compared to a laptop. Imagine u had 15 inch lol"
+            "so...\n"
+            "basically u can\n"
+            "grow tomatos with work()\n"
+            "and harvest them with harvest()\n"
+            "idk im not a gardener\n"
         )
 
 
-my_laptop = Laptop(
-    13, 19000, "Apple", "MacBook", 3
-)  # i wish i ACTUALLY had macbook. even m1
-my_laptop.is_portable()
-my_phone = Phone(6.1, 4000, "Apple", "16e", 1450000)
-my_phone.is_portable()
+Gardener.knowledge_base()
+bush = TomatoBush(5)
+gardener = Gardener("Alex", bush)
+gardener.work()
+gardener.harvest()
+gardener.work()
+gardener.work()
+gardener.harvest()
