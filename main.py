@@ -1,74 +1,31 @@
-class Tomato:
-    global states
-    states = [0, 1, 2, 3]
+from datetime import datetime, time
 
-    def __init__(self, index):
 
-        self._index = index  # dynamic
-        self._state = states[self._index]  # dynamic
+class ShabbatShalomException(Exception):
+    pass
 
-    def grow(self):  # grow tomato
-        self._index += 1
-        self._state = states[self._index]
 
-    def is_ripe(self):  # check if Tomato is ripe
-        if self._state == 3:
-            return True
+def drive_car():
+    try:
+        today = datetime.now().weekday()
+        if today == 5:
+            raise ShabbatShalomException
         else:
-            return False
+            return "vroom vroom"
+    except ShabbatShalomException:
+        return "Oy vey! You cant do that on Shabbat"
 
 
-class TomatoBush:
-    def __init__(self, count):
-        self.tomatoes = []
-        for i in range(count):  # make tomato list
-            self.tomatoes.append(Tomato(0))
-
-    def grow_all(self):  # grow all tomatoes
-        for tomato in self.tomatoes:
-            tomato.grow()
-
-    def all_are_ripe(self):  # check are tomatoes ripe
-        for tomato in self.tomatoes:
-            if not tomato.is_ripe():
-                return False
-        return True
-
-    def give_away_all(self):  # clear tomatoes list
-        self.tomatoes = []
-
-
-class Gardener:
-    def __init__(self, name, bush):
-        self.name = name  # gardener's name / public
-        self._plant = bush  # accepts TomatoBush / non-public
-
-    def work(self):  # makes gardener work, grows all tomatoes
-        self._plant.grow_all()
-
-    def harvest(self):  # checks can u ripe tomatoes if yes ripe them
-        if self._plant.all_are_ripe():
-            print("yay we got tomatoes")
-            self._plant.give_away_all()
+def cook_lunch():
+    try:
+        today = datetime.now().weekday()
+        if today == 5:
+            raise ShabbatShalomException
         else:
-            print("we cant ripe rn, tomatoes arent rdy")
-
-    @staticmethod
-    def knowledge_base():  # give knowledge base like some info
-        print(
-            "so...\n"
-            "basically u can\n"
-            "grow tomatos with work()\n"
-            "and harvest them with harvest()\n"
-            "idk im not a gardener\n"
-        )
+            return "yay u made delicious shakshuka"
+    except ShabbatShalomException:
+        return "Oy vey! You cant do that on Shabbat"
 
 
-Gardener.knowledge_base()
-bush = TomatoBush(5)
-gardener = Gardener("Alex", bush)
-gardener.work()
-gardener.harvest()
-gardener.work()
-gardener.work()
-gardener.harvest()
+print(cook_lunch())
+print(drive_car())
