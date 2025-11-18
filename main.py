@@ -1,31 +1,13 @@
-from datetime import datetime, time
+def fib(n):
+    fib1 = fib2 = 1
+    with open("fib.txt", "w") as file:
+        for _ in range(n):
+            file.write(str(fib1) + "\n")
+            yield fib1
+            fib1, fib2 = fib2, fib1 + fib2
 
 
-class ShabbatShalomException(Exception):
-    pass
-
-
-def drive_car():
-    try:
-        today = datetime.now().weekday()
-        if today == 5:
-            raise ShabbatShalomException
-        else:
-            return "vroom vroom"
-    except ShabbatShalomException:
-        return "Oy vey! You cant do that on Shabbat"
-
-
-def cook_lunch():
-    try:
-        today = datetime.now().weekday()
-        if today == 5:
-            raise ShabbatShalomException
-        else:
-            return "yay u made delicious shakshuka"
-    except ShabbatShalomException:
-        return "Oy vey! You cant do that on Shabbat"
-
-
-print(cook_lunch())
-print(drive_car())
+for i, val in enumerate(fib(200), start=1):
+    if i == 200:
+        print(val)
+        break
